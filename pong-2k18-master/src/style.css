@@ -1,0 +1,50 @@
+.gameBoard{
+  height:600px;
+  width:1100px;
+  background-color: white;
+  border:5px solid black;
+  position: relative;
+  margin-top:80px;
+  margin-left:150px;
+}
+
+.paddleRight{
+height:150px;
+width:25px;
+background-color:black;
+margin-left:1px;
+position: absolute;
+margin-top: 229px;
+}
+
+.paddleLeft{
+height:150px;
+width:25px;
+background-color:black;
+margin-left:1080px;
+position:absolute;
+margin-top: 229px;
+}
+
+  .ball{
+  height:50px;
+  width:50px;
+  background-color: black;
+  border-radius: 100%;
+  margin-left: 515px;
+  margin-top: 280px;
+  position: absolute;
+}
+
+.p1control{
+  font-size: 20px;
+  color:black;
+  margin-top: 280px;
+}
+
+.p2control{
+  font-size: 20px;
+  color:black;
+  margin-top: 280px;
+  margin-left: 600px;
+}
